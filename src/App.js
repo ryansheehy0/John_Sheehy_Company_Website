@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useRef } from 'react'
 import './App.css';
+import Navbar from "./Navbar"
+import AnimatedNavbar from "./AnimatedNavbar"
+import AboutUs from "./AboutUs"
+import ContactUs from './ContactUs';
+import Background from "./assets/farm_land_image.webp"
 
 function App() {
+  const aboutUsReference = useRef(null)
+  const contactUsReference = useRef(null)
+
+  //<Navbar aboutUsReference={aboutUsReference} contactUsReference={contactUsReference} />
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AnimatedNavbar aboutUsReference={aboutUsReference} contactUsReference={contactUsReference} />
+      <p className='Blessing'>May peace and plenty bless your world, with a joy that long endures.<br/> 
+May all life’s passing seasons bring the best to you and yours.</p>
+      <img className="Background" src={Background} />
+      <AboutUs ref={aboutUsReference}/>
+      <ContactUs ref={contactUsReference}/>
     </div>
   );
 }

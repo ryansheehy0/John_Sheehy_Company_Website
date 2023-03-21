@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    z-index: 2;
+  }
+
+.navbarBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    opacity: 0;
+    z-index: 2;
+}
+
+  .navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .leftSide img {
+    width: 230px;
+  }
+
+  .navbar .leftSide button {
+    background: none;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10vw;
+  }
+
+  .navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .navbar .rightSide button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10vw;
+    color: white;
+  }
+
+
+@media only screen and (max-width: 900px) {
+  .navbar .leftSide button {
+    margin-left: 10px;
+  }
+  .navbar .rightSide button {
+      margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar .leftSide button {
+    margin-left: 2px;
+  }
+  .navbar .rightSide button {
+      margin-right: 2px;
+  }
+  .navbar .leftSide img {
+    width: 100%;
+  }
+}
