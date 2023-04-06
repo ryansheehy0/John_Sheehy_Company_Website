@@ -112,16 +112,21 @@
 
 @media only screen and (max-width: 500px) {
   .navbar .leftSide button {
-    margin-left: 2px;
+    margin-left: 1px;
+    width: calc(50vw - 1px);
   }
   .navbar .rightSide button {
-      margin-right: 2px;
+      margin: 0;
+      margin-right: 1px;
+      width: calc(25vw - 1px);
+      line-height: 1;
+      font-size: 100%;
   }
   .navbar .leftSide img {
     width: 100%;
   }
   .navbar .leftSide svg {
-    width: 200px;
+    width: 100%;
   }
   .navbar .leftSide {
     width: 50vw;
