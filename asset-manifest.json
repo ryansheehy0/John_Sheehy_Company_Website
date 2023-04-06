@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/john_sheehy_company_website/static/css/main.041c83eb.css",
-    "main.js": "/john_sheehy_company_website/static/js/main.31af6320.js",
+    "main.css": "/john_sheehy_company_website/static/css/main.2e39b1a2.css",
+    "main.js": "/john_sheehy_company_website/static/js/main.018fd846.js",
     "static/js/787.d2ea9986.chunk.js": "/john_sheehy_company_website/static/js/787.d2ea9986.chunk.js",
     "static/media/farm_land_image.webp": "/john_sheehy_company_website/static/media/farm_land_image.f329f426726bd6df0476.webp",
     "static/media/blurry_berry.jpg": "/john_sheehy_company_website/static/media/blurry_berry.c7bb07c7b880fde4a195.jpg",
     "static/media/precision-irrigation.jpg": "/john_sheehy_company_website/static/media/precision-irrigation.4d3dd4935283f979a7bc.jpg",
-    "static/media/john_sheehy_logo.svg": "/john_sheehy_company_website/static/media/john_sheehy_logo.db0b9206d9362bf36c40f60aa6e8c6eb.svg",
     "index.html": "/john_sheehy_company_website/index.html",
-    "main.041c83eb.css.map": "/john_sheehy_company_website/static/css/main.041c83eb.css.map",
-    "main.31af6320.js.map": "/john_sheehy_company_website/static/js/main.31af6320.js.map",
+    "main.2e39b1a2.css.map": "/john_sheehy_company_website/static/css/main.2e39b1a2.css.map",
+    "main.018fd846.js.map": "/john_sheehy_company_website/static/js/main.018fd846.js.map",
     "787.d2ea9986.chunk.js.map": "/john_sheehy_company_website/static/js/787.d2ea9986.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.041c83eb.css",
-    "static/js/main.31af6320.js"
+    "static/css/main.2e39b1a2.css",
+    "static/js/main.018fd846.js"
   ]
 }
