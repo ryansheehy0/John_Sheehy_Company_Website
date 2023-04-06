@@ -1,4 +1,4 @@
-import React, { forwardRef ,useEffect } from 'react'
+import React, { forwardRef, useEffect } from 'react'
 import Image from './assets/blurry_berry.jpg'
 import './styles/AboutUs.css'
 
@@ -9,7 +9,7 @@ const AboutUs = forwardRef((props, ref) => {
   }, [])
 
   return (
-    <div ref={ref} Id="aboutUs" className='aboutUs'>
+    <div ref={ref} id="aboutUs" className='aboutUs'>
         <div className='leftSide'>
             <img src={Image}/>
         </div>

@@ -2,7 +2,6 @@
     display: flex;
     background-color: white;
     height: calc(100vh - 100px);
-    overflow-y: scroll;
 }
 
 .aboutUs .leftSide {
@@ -32,12 +31,16 @@
 
 .aboutUs .rightSide h1 {
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .aboutUs .rightSide .text {
     text-indent: 1em;
     padding-left: 10vw;
     padding-right: 10vw;
+    overflow-y: scroll;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 900px) {
@@ -58,7 +61,7 @@
 
     .aboutUs .rightSide {
         width: 100vw;
-        height: 50%;
+        height: calc(50vh - 100px);
     }
 
     .aboutUs .rightSide .text {

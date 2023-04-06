@@ -27,11 +27,10 @@
   }
   
   .navbar .leftSide svg {
-    width: 230px;
+    width: 300px;
     height: auto;
   }
 
-  /*479.1723937988281px*/
   .navbar .leftSide .john {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
@@ -51,6 +50,20 @@
     stroke-dashoffset: 500px;
     animation: LineAnimation 2.2s ease forwards;
     animation-delay: 3s;
+  }
+
+  .navbar .leftSide .co {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: LineAnimation 2s ease forwards;
+    animation-delay: 4.4s;
+  }
+
+  .navbar .leftSide .period {
+    stroke-dasharray: 20px;
+    stroke-dashoffset: 20px;
+    animation: LineAnimation 1s ease forwards;
+    animation-delay: 5.1s;
   }
 
   @keyframes LineAnimation {
@@ -106,5 +119,14 @@
   }
   .navbar .leftSide img {
     width: 100%;
+  }
+  .navbar .leftSide svg {
+    width: 200px;
+  }
+  .navbar .leftSide {
+    width: 50vw;
+  }
+  .navbar .rightSide {
+    width: 50vw;
   }
 }

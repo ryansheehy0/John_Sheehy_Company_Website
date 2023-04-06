@@ -2,7 +2,6 @@
     display: flex;
     background-color: white;
     height: calc(100vh - 100px);
-    overflow-y: scroll;
 }
 
 .contactUs .rightSide {
@@ -32,17 +31,21 @@
 
 .contactUs .leftSide h1 {
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .contactUs .leftSide .text {
     text-indent: 1em;
     padding-left: 10vw;
     padding-right: 10vw;
+    overflow-y: scroll;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 900px) {
     .contactUs {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .contactUs .rightSide {
